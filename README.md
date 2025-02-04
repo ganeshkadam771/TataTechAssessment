@@ -1,4 +1,7 @@
 Project created using Vite
+Clone your project 
+git clone https://github.com/ganeshkadam771/TataTechAssessment.git
+cd vite-project
 
 Run below commands to run project 
 
@@ -31,5 +34,7 @@ Install Font awesome
 2 npm i --save @awesome.me/kit-KIT_CODE
 
 3 npm i --save @fortawesome/react-fontawesome@latest
+
+
 
 
