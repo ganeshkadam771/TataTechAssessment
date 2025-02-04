@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faBell,
@@ -7,7 +7,6 @@ import {
   faLifeRing,
   faSearch,
 } from "@fortawesome/free-solid-svg-icons";
-
 
 export default function OfferManagement() {
   const [selectedTab, setSelectedTab] = useState("packages");
@@ -120,6 +119,18 @@ export default function OfferManagement() {
               <button className="w-full mt-4 bg-purple-600 text-white p-2 rounded-md">
                 Create Offer
               </button>
+            </div>
+          </section>
+
+          <section>
+            <div>
+              <button></button>
+              <button></button>
+              <button></button>
+            </div>
+
+            <div>
+              
             </div>
           </section>
         </div>
