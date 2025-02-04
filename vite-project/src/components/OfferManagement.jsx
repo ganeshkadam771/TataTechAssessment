@@ -1,4 +1,7 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBell, faQuestionCircle, faPowerOff, faLifeRing, faSearch } from "@fortawesome/free-solid-svg-icons";
+
 
 export default function OfferManagement() {
   return (
@@ -18,33 +21,37 @@ export default function OfferManagement() {
         </nav>
       </aside>
     {/* Main content  */}
-      <main>
-        <div>
-          <h1> Create and Manage Offers </h1>
-          <div></div>
+      <main className="flex-1 p-6">
+        <div className="flex justify-between items-center">
+          <h1 className="text-2xl font-bold"> Create and Manage Offers </h1>
+          <div className="flex space-x-4">
+          <FontAwesomeIcon icon={faBell} className="text-gray-700 cursor-pointer" />
+            <FontAwesomeIcon icon={faQuestionCircle} className="text-gray-700 cursor-pointer" />
+            <FontAwesomeIcon icon={faLifeRing} className="text-gray-700 cursor-pointer" />
+            <FontAwesomeIcon icon={faPowerOff} className="text-red-600 cursor-pointer" />
+          </div>
         </div>
         {/* Search Bar  */}
         <div>
-          <input type="text" placeholder="Search for offers..." className="" />
-          < d/>
+          <input type="text" placeholder="Search for offers..." className="w-full border p-2 pl-10 rounded-md" />
+          <FontAwesomeIcon icon={faSearch} className="absolute left-3 top-3 text-gray-500" />
         </div>
         <div>
             {/* Create Offer Section  */}
             <section>
+              
                 <div>
                     <span></span>
                 </div>
                 <div>
                     <label></label>
                     <div>
-                        <Button/>
-                        <Button/>
-                        <Button/>
+                       
                     </div>
                     <input/>
                     <input/>
                     <textarea></textarea>
-                    <Button ></Button>
+                    
                 </div>
             </section>
         </div>
